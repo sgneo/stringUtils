@@ -29,13 +29,13 @@ export const startsWith = (str1, str2) => {
 export const trimStart = str => {
   handleParams(str);
 
-  return str => str.replace(/^\s+/, '');
+  return str.replace(/^\s+/, '');
 };
 
 export const trimEnd = str => {
   handleParams(str);
 
-  return str => str.replace(/\s+$/, '');
+  return str.replace(/\s+$/, '');
 };
 
 
