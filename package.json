@@ -1,7 +1,7 @@
 {
   "name": "@undisputedutils/stringutils",
-  "version": "0.0.4",
-  "description": "This is just a test",
+  "version": "0.0.6",
+  "description": "A lib with util functions for strings",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require @babel/register '*.test.js'",

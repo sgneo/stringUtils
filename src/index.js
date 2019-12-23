@@ -6,13 +6,11 @@ export const handleParams = (...params) => {
   });
 };
 
-
 export const isEmpty = str => {
   handleParams(str);
 
   return str.length === 0;
 };
-
 
 export const isBlank = str => {
   handleParams(str);
